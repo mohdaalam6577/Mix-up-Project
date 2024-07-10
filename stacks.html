@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stacks</title>
+  </head>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav{
+        width: 100%;
+        height: 75px;
+        line-height: 75px;
+        padding: 0px 120px;
+        background-color: #000;
+    }
+
+    nav ul{
+        float: right;
+    }
+
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+
+    nav ul li a{
+        font-size: 18px;
+        padding: 0px 30px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+
+    .stack{
+        width: 150px;
+        border-radius: 15px;
+        /* position: fixed; */
+    }
+
+    .red-box {
+        height: 300px;
+        background-color: rgb(214, 27, 27);
+        position: relative;
+        top: 120px;
+        left: 35%;
+    }
+
+    .green-box {
+        height: 250px;
+        background-color: green;
+        position: relative;
+        left: 40%;
+        top: -130px;
+    }
+
+    .blue-box {
+        height: 200px;
+        background-color: rgb(4, 4, 228);
+        position: relative;
+        left: 45%;
+        top: -330px;
+    }
+
+    .boilet-box {
+        height: 150px;
+        background-color: rgb(89, 6, 167);
+        position: relative;
+        left: 50%;
+        top: -480px;
+    }
+    .yellow-box {
+        height: 100px;
+        background-color: rgb(218, 144, 7);
+        position: relative;
+        left: 55%;
+        top: -580px;
+    }
+  </style>
+  <body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sidebar.html">Sidebar</a></li>
+            <li><a href="boxes.html">Boxes</a></li>
+            <li><a href="#">Stacks</a></li>
+            
+        </ul>
+    </nav>
+
+    <div class="container">
+      <div class="stack red-box"></div>
+      <div class="stack green-box"></div>
+      <div class="stack blue-box"></div>
+      <div class="stack boilet-box"></div>
+      <div class="stack yellow-box"></div>
+    </div>
+  </body>
+</html>
